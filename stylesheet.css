@@ -1,4 +1,5 @@
 
+
 body{
     width: 1440px;
     height: 3011px;
@@ -11,6 +12,12 @@ body{
 
     
 }
+@media screen and (max-width: 600px) {
+    .body{
+      width: 600px;
+      height:2500px;
+    }
+  }
 #header{
     background-color: white;
 }
@@ -58,6 +65,11 @@ display: inline-flex;
     
 
 }
+@media screen and (max-width: 600px) {
+    .echotalent {
+      font-size:20px;
+    }
+  }
 .logo{
     width: 48px;
     height: 53.33px;
@@ -103,6 +115,11 @@ text-align: left;
 text-decoration: none;
 display: inline;
 }
+@media screen and (max-width: 600px) {
+    p.products{
+      display: none;
+    }
+  }
 p.blog{
     width: 35px;
     height: 20px;
@@ -116,6 +133,11 @@ p.blog{
     text-decoration: none;
      
 }
+@media screen and (max-width: 600px) {
+    p.blog{
+      display: none;
+    }
+  }
 
 
 .frame3{
@@ -126,7 +148,7 @@ p.blog{
 display: inline-flex;    
 }
 .signup{
-    width: 69px;
+    width: 80px;
     height: 26px;
     gap: 0px;
     opacity: 0px;
@@ -217,6 +239,11 @@ color: #000000;
 
     
 }
+@media screen and (max-width: 600px) {
+    p.revolutionalize{
+      font-size: 30px;
+    }
+  }
 p.redifining{
     width: 973px;
     height: 40px;
@@ -243,6 +270,11 @@ background: var(--primaryBlue, #3F3EED);
 margin-left: 380px;
     
 }
+@media screen and (max-width: 600px) {
+    .frame81{
+      display: none;
+    }
+  }
 p.login2{
     width: 43px;
     height: 20px;
@@ -257,6 +289,12 @@ p.login2{
      color: #FFFFFF;
 
 }
+@media screen and (max-width: 600px) {
+    p.login2{
+      display: none;
+    }
+  }
+
 .screenshot{
     width: 931px;
 height: 302.5px;
@@ -304,6 +342,7 @@ text-align: left;
 color: #000000;
     
 }
+
  
 .para1{
 width: 706px;
@@ -1144,6 +1183,11 @@ li{
     
 
 }
+@media screen and (max-width: 600px) {
+    .F103{
+      display: none;
+    }
+  }
 .copyright{
 width: 380px;
 height: 16px;
