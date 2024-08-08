@@ -401,6 +401,7 @@ color: #4F4F4F;
     
 
 }
+
 .section1{
 grid-column: 1;
 width: 360px;
@@ -424,7 +425,7 @@ p.image{
     gap: 0px;
     border-radius: 8px 8px 8px 8px;
     opacity: 0px;
-    background-color: #3F3EED1F;
+    
     
     
 }
