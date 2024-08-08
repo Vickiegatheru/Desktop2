@@ -1083,7 +1083,8 @@ font-size: 12px;
 font-weight: 700;
 line-height: 19.5px;
 text-align: left;
-color: var(--primaryBlue, #3F3EED);
+color: #3F3EED;
+
 
      
 
@@ -1130,7 +1131,7 @@ p.insta{
     padding: 2px;
     gap: 0px;
     opacity: 0px;
-    background-color: #3F3EED;
+    
 
        
 }
@@ -1141,7 +1142,7 @@ p.fb{
     padding: 2px 2px 2.05px 2px;
     gap: 0px;
     opacity: 0px;
-    background-color: #3F3EED;
+    
 
 }
 p.linked{
@@ -1150,7 +1151,7 @@ p.linked{
     padding: 3px 3px 3px 3px;
     gap: 0px;
     opacity: 0px;
-    background-color: #3F3EED;
+   
       
 }
 p.view{
@@ -1167,10 +1168,14 @@ color: #313131;
 text-decoration: none;
  
 }
-p.socials{
+.three{
     display: block;
 }
+p.socials{
+    display: inline;
+}
 li{
+    margin-top: -40%;
     display:inline-block;
 }
 
