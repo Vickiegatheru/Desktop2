@@ -24,31 +24,23 @@ body{
 
 
 #frame6{
-    
-    background-color: white;
-    
-    display: grid;
+   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: 
     "area-1 area-2 area-3";
- 
+ }
 
-    
-}
 .frame5{
-width: Fixed 1,196px;
-height: Hug 61px;
-gap: 180px;
 justify-items: space-between;
 opacity: 0px;
 display: inline-flex;
 }
+
 .frame2{
-   
-    grid-area: area-1;
-    display: inline-flex;
+   grid-area: area-1;
+  display: inline-flex;
   grid-area: area-1;
-   padding: 20px;
+  padding: 20px;
   align-items: center;
 }
      
