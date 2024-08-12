@@ -24,14 +24,14 @@ body{
 
 
 #frame6{
-    width: Fixed 1,196px;
-    height: Hug 81px;
-    margin-top: 27px;
-    padding-left: 122px;
-    gap: 20px;
-    opacity: 0px;
+    
     background-color: white;
-    display: inline-flex;
+    
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+    "area-1 area-2 area-3";
+ 
 
     
 }
@@ -44,13 +44,15 @@ opacity: 0px;
 display: inline-flex;
 }
 .frame2{
-    width: Hug 328px;
-    height: Hug 61px;
-    gap: 12px;
-    opacity: 0px;
+   
+    grid-area: area-1;
     display: inline-flex;
-     
+  grid-area: area-1;
+   padding: 20px;
+  align-items: center;
 }
+     
+
 .echotalent{
     width: 268px;
     height: 61px;
@@ -80,11 +82,11 @@ display: inline-flex;
 
 }
 .frame4{
-    width: Hug 174px;
-    height: Hug 20px;
-    gap: 12px;
-    opacity: 0px;
+    
      display: inline-flex;
+     grid-area: area-2;
+     gap:20px;
+    align-items: center;
 }
 
 
@@ -140,12 +142,11 @@ p.blog{
 
 
 .frame3{
-    width: Hug (250px)px;
-    height: Hug (55px)px;
-    gap: 59px;
-    opacity: 0px;
-display: inline-flex;    
-}
+   gap: 40px;
+   display: inline-flex;
+    grid-area: area-3;
+    align-items: center;
+  }
 .signup{
     width: 80px;
     height: 26px;
@@ -551,7 +552,7 @@ background-color: #3F3EED1F;
 p.selfcare{
     width: 280px;
     height: 33px;
-   margin-top: top: 150px;
+    top:150px;
     margin-left: 40px;
     gap: 0px;
     opacity: 0px;
